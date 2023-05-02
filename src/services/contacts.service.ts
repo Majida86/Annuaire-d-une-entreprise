@@ -1,44 +1,55 @@
 import { Injectable } from '@angular/core';
-import { contact } from './contact.model';
+import { contact } from '../models/contact.model';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ContactService {
 
-tabContact: contact [] = [ 
+  // Tableau de contact
+listeContacts: contact [] = [ 
   {
     id: 1,
     nom:"Premier",
     prenom: "contact1",
     adresse: "premiere adresse",
+    telephone: "",
     photo: "",
+    client:true,
   },
   {
     id: 2,
     nom:"Deuxième",
     prenom: "contact2",
     adresse: "deuxième adresse",
+    telephone: "",
     photo: "",
+    client:true,
+    
   },
   {
     id: 3,
     nom:"Troisième",
     prenom: "contact3",
     adresse: "troisième adresse",
+    telephone: "",
     photo: "",
+    client:true,
   },
   {
     id: 4,
     nom:"Quatrième",
     prenom: "contact4",
     adresse: "quatrième adresse",
+    telephone: "",
     photo: "",
+    client:true,
   }
 
 ]
-listeDeContact(){
-  contact;
+// fonction qui renvoie le tableau
+listerContacts(): contact[]{
+  return this.listeContacts;
 }
 
 }
