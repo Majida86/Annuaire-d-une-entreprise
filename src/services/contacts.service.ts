@@ -14,7 +14,7 @@ listeContacts: contact [] = [
     nom:"Premier",
     prenom: "contact1",
     adresse: "premiere adresse",
-    telephone: "",
+    telephone: "11 11 11 11",
     client:true,
   },
   {
@@ -23,7 +23,7 @@ listeContacts: contact [] = [
     nom:"Deuxième",
     prenom: "contact2",
     adresse: "deuxième adresse",
-    telephone: "",
+    telephone: "22 22 22 22",
     client:true,
     
   },
@@ -33,8 +33,8 @@ listeContacts: contact [] = [
     nom:"Troisième",
     prenom: "contact3",
     adresse: "troisième adresse",
-    telephone: "",
-    client:true,
+    telephone: "33 33 33 33",
+    client: false,
   },
   { 
     photo: "",
@@ -42,7 +42,7 @@ listeContacts: contact [] = [
     nom:"Quatrième",
     prenom: "contact4",
     adresse: "quatrième adresse",
-    telephone: "",
+    telephone: "44 44 44 44",
     client:true,
   }
 

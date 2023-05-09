@@ -1,0 +1,17 @@
+header {
+    min-height: 200px;
+    position: relative;
+    
+        
+}
+#searchBar{
+ width: 350px;
+ height: auto;
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%, -50%);
+ -webkit-transform: translate(-50%, -50%);
+ border: 3px solid blue;
+
+ }
