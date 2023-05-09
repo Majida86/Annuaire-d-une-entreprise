@@ -7,3 +7,25 @@
     border: solid 4px blue;
     
 }
+.id {
+    font-size: xx-large;
+}
+.nom {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    
+}
+.prenom {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    font-size: larger;
+}
+.adresse {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    font-size: large;
+}
+.tel {
+    font-size: x-large;
+}

@@ -9,7 +9,7 @@ export class ContactService {
   // Tableau de contact
 listeContacts: contact [] = [ 
   { 
-    photo: "",
+    photo: "https://picsum.photos/200/?random=1",
     id: 1,
     nom:"Premier",
     prenom: "contact1",
@@ -18,7 +18,7 @@ listeContacts: contact [] = [
     client:true,
   },
   {
-    photo: "",
+    photo: "https://picsum.photos/200/?random=2",
     id: 2,
     nom:"Deuxième",
     prenom: "contact2",
@@ -28,7 +28,7 @@ listeContacts: contact [] = [
     
   },
   {
-    photo: "",
+    photo: "https://picsum.photos/200/?random=3",
     id: 3,
     nom:"Troisième",
     prenom: "contact3",
@@ -37,7 +37,7 @@ listeContacts: contact [] = [
     client: false,
   },
   { 
-    photo: "",
+    photo: "https://picsum.photos/200/?random=4",
     id: 4,
     nom:"Quatrième",
     prenom: "contact4",
