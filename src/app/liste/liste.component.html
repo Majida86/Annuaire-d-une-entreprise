@@ -1,13 +1,5 @@
-
-
-<ul class="card"  *ngFor="let contact of contacts ">
-  <li class="element"> 
-    {{ contact.id}}
-    {{ contact.nom}}
-    {{ contact.prenom}}
-    {{ contact.adresse}}
-    {{ contact.photo}}
-    {{ contact.telephone}}
-    {{ contact.client}}
-</li>
+<ul
+class="card" *ngFor="let contact of contacts ">
+<app-contact [detail-contact]="contact">
+</app-contact>
 </ul>
