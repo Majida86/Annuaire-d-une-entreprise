@@ -15,7 +15,7 @@ listeContacts: contact [] = [
     prenom: "contact1",
     adresse: "premiere adresse",
     telephone: "11 11 11 11",
-    client:true,
+    client: true,
   },
   {
     photo: "https://picsum.photos/200/?random=2",
@@ -24,7 +24,7 @@ listeContacts: contact [] = [
     prenom: "contact2",
     adresse: "deuxième adresse",
     telephone: "22 22 22 22",
-    client:true,
+    client: true,
     
   },
   {
@@ -43,7 +43,7 @@ listeContacts: contact [] = [
     prenom: "contact4",
     adresse: "quatrième adresse",
     telephone: "44 44 44 44",
-    client:true,
+    client: true,
   }
 
 ]

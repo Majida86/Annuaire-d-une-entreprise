@@ -6,6 +6,6 @@
     <span class="prenom"> {{ contact.prenom}} </span>
     <span class="adresse"> {{ contact.adresse}} </span>
     <span class="tel"> {{ contact.telephone}} </span>
-    <span class="client"> {{ contact.client}} </span>
+    <span [ngClass]= {client:true} >{{contact.client }}</span>
  
 </div>
